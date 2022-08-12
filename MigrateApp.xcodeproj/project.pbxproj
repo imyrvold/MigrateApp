@@ -13,6 +13,7 @@
 		977D813E28A61F780078EF06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977D813D28A61F780078EF06 /* Preview Assets.xcassets */; };
 		977D814028A61F780078EF06 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977D813F28A61F780078EF06 /* Persistence.swift */; };
 		977D814328A61F780078EF06 /* MigrateApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 977D814128A61F780078EF06 /* MigrateApp.xcdatamodeld */; };
+		977D814B28A627630078EF06 /* Modelv1Tov2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 977D814A28A627630078EF06 /* Modelv1Tov2.xcmappingmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		977D813D28A61F780078EF06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		977D813F28A61F780078EF06 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		977D814228A61F780078EF06 /* MigrateApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MigrateApp.xcdatamodel; sourceTree = "<group>"; };
+		977D814928A622EB0078EF06 /* MigrateApp v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MigrateApp v2.xcdatamodel"; sourceTree = "<group>"; };
+		977D814A28A627630078EF06 /* Modelv1Tov2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Modelv1Tov2.xcmappingmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 				977D813F28A61F780078EF06 /* Persistence.swift */,
 				977D814128A61F780078EF06 /* MigrateApp.xcdatamodeld */,
 				977D813C28A61F780078EF06 /* Preview Content */,
+				977D814A28A627630078EF06 /* Modelv1Tov2.xcmappingmodel */,
 			);
 			path = MigrateApp;
 			sourceTree = "<group>";
@@ -143,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977D814B28A627630078EF06 /* Modelv1Tov2.xcmappingmodel in Sources */,
 				977D814028A61F780078EF06 /* Persistence.swift in Sources */,
 				977D814328A61F780078EF06 /* MigrateApp.xcdatamodeld in Sources */,
 				977D813928A61F760078EF06 /* ContentView.swift in Sources */,
@@ -352,9 +357,10 @@
 		977D814128A61F780078EF06 /* MigrateApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				977D814928A622EB0078EF06 /* MigrateApp v2.xcdatamodel */,
 				977D814228A61F780078EF06 /* MigrateApp.xcdatamodel */,
 			);
-			currentVersion = 977D814228A61F780078EF06 /* MigrateApp.xcdatamodel */;
+			currentVersion = 977D814928A622EB0078EF06 /* MigrateApp v2.xcdatamodel */;
 			path = MigrateApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
